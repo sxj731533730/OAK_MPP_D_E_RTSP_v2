@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OAK_MPP_D_E_RTSP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\lib\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\opencv4\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\jsoncpp\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\lib\;CMake Files\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\usr\local\lib\cmake\depthai\;CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\;CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\lib\;CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\lib\cmake\;CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\lib\cmake\nlohmann_json\;CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\lib\cmake\libnop\;CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\lib\cmake\XLink\;CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\lib\cmake\XLink\dependencies\;CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\lib\cmake\XLink\dependencies\lib\;CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\lib\cmake\XLink\dependencies\lib\cmake\;CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\lib\cmake\XLink\dependencies\lib\cmake\usb-1.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OAK_MPP_D_E_RTSP">
+				<Option output="/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/OAK_MPP_D_E_RTSP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEPTHAI_TARGET_OPENCV"/>
+					<Add option="-DDEPTHAI_TARGET_CORE"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/PRIVATE"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/3rdpart"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/include"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/utility"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/inc"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/osal/inc"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/base/inc"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/local/include/depthai-shared/3rdparty"/>
+					<Add directory="/usr/local/lib/cmake/depthai/dependencies/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 OAK_MPP_D_E_RTSP"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OAK_MPP_D_E_RTSP/fast">
+				<Option output="/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/OAK_MPP_D_E_RTSP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEPTHAI_TARGET_OPENCV"/>
+					<Add option="-DDEPTHAI_TARGET_CORE"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/PRIVATE"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/3rdpart"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/include"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/utility"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/inc"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/osal/inc"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/base/inc"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/local/include/depthai-shared/3rdparty"/>
+					<Add directory="/usr/local/lib/cmake/depthai/dependencies/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 OAK_MPP_D_E_RTSP/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RtspServer">
+				<Option output="/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/libRtspServer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/PRIVATE"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/3rdpart"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/include"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/utility"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/inc"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/osal/inc"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/base/inc"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 RtspServer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RtspServer/fast">
+				<Option output="/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/libRtspServer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/PRIVATE"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/3rdpart"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/include"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/utility"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/inc"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/osal/inc"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/base/inc"/>
+					<Add directory="/home/orangepi/OAK_MPP_D_E_RTSP_v2"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 RtspServer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/RtspServerWarpper.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/RtspServerWarpper.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/Acceptor.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/Acceptor.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/BufferReader.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/BufferReader.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/BufferWriter.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/BufferWriter.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/EpollTaskScheduler.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/EpollTaskScheduler.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/EventLoop.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/EventLoop.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/Logger.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/Logger.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/MemoryManager.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/MemoryManager.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/NetInterface.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/NetInterface.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/Pipe.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/Pipe.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/SelectTaskScheduler.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/SelectTaskScheduler.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/SocketUtil.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/SocketUtil.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/TaskScheduler.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/TaskScheduler.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/TcpConnection.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/TcpConnection.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/TcpServer.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/TcpServer.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/TcpSocket.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/TcpSocket.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/Timer.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/Timer.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/Timestamp.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/net/Timestamp.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/AACSource.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/AACSource.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/DigestAuthentication.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/DigestAuthentication.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/G711ASource.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/G711ASource.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/H264Parser.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/H264Parser.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/H264Source.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/H264Source.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/H265Source.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/H265Source.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/MediaSession.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/MediaSession.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/RtpConnection.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/RtpConnection.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/RtspConnection.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/RtspConnection.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/RtspMessage.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/RtspMessage.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/RtspPusher.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/RtspPusher.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/RtspServer.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/RtspServer.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/VP8Source.cpp">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/RtspServer/src/xop/VP8Source.h">
+			<Option target="RtspServer"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/main.cpp">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils/camera_source.c">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils/camera_source.h">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils/dictionary.c">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils/dictionary.h">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils/iniparser.c">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils/iniparser.h">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils/mpi_dec_utils.c">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils/mpi_dec_utils.h">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils/mpi_enc_utils.c">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils/mpi_enc_utils.h">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils/mpp_enc_roi_utils.c">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils/mpp_enc_roi_utils.h">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils/mpp_opt.c">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils/mpp_opt.h">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils/utils.c">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/mpp/utils/utils.h">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/src/H264Server.cpp">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/src/MppDecode.cpp">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/src/MppEncode.cpp">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/utility/utility.cpp">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/utility/utility.hpp">
+			<Option target="OAK_MPP_D_E_RTSP"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/lib/aarch64-linux-gnu/cmake/jsoncpp/jsoncppConfig-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\jsoncpp\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/lib/aarch64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\jsoncpp\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/local/lib/cmake/depthai/depthaiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\depthai\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/local/lib/cmake/depthai/depthaiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\depthai\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/local/lib/cmake/depthai/depthaiDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\depthai\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/local/lib/cmake/depthai/depthaiTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\depthai\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/local/lib/cmake/depthai/depthaiTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\depthai\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/local/lib/cmake/depthai/dependencies/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\lib\cmake\nlohmann_json\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/local/lib/cmake/depthai/dependencies/lib/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\lib\cmake\nlohmann_json\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/local/lib/cmake/depthai/dependencies/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\lib\cmake\nlohmann_json\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/local/lib/cmake/depthai/dependencies/lib/cmake/libnop/libnopConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\lib\cmake\libnop\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/local/lib/cmake/depthai/dependencies/lib/cmake/XLink/XLinkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\lib\cmake\XLink\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/local/lib/cmake/depthai/dependencies/lib/cmake/XLink/XLinkDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\lib\cmake\XLink\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/local/lib/cmake/depthai/dependencies/lib/cmake/XLink/XLinkTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\lib\cmake\XLink\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/local/lib/cmake/depthai/dependencies/lib/cmake/XLink/XLinkTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\lib\cmake\XLink\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/local/lib/cmake/depthai/dependencies/lib/cmake/XLink/dependencies/lib/cmake/usb-1.0/usb-1.0Config-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\lib\cmake\XLink\dependencies\lib\cmake\usb-1.0\"/>
+		</Unit>
+		<Unit filename="/home/orangepi/OAK_MPP_D_E_RTSP_v2/../../../usr/local/lib/cmake/depthai/dependencies/lib/cmake/XLink/dependencies/lib/cmake/usb-1.0/usb-1.0Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\depthai\dependencies\lib\cmake\XLink\dependencies\lib\cmake\usb-1.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

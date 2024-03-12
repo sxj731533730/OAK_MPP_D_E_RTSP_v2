@@ -1,0 +1,4 @@
+/home/firefly/OAK_MPP_D_E_RTSP/build/CMakeFiles/rebuild_cache.dir
+/home/firefly/OAK_MPP_D_E_RTSP/build/CMakeFiles/edit_cache.dir
+/home/firefly/OAK_MPP_D_E_RTSP/build/CMakeFiles/OAK_MPP_D_E_RTSP.dir
+/home/firefly/OAK_MPP_D_E_RTSP/build/CMakeFiles/RtspServer.dir

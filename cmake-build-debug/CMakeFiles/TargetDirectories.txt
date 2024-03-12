@@ -1,0 +1,4 @@
+/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/CMakeFiles/OAK_MPP_D_E_RTSP.dir
+/home/orangepi/OAK_MPP_D_E_RTSP_v2/cmake-build-debug/CMakeFiles/RtspServer.dir
